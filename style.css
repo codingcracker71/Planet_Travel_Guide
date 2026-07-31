@@ -1,0 +1,196 @@
+body{
+    background-color:#bb99ff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color:white;
+}
+/*images on planet pages*/
+img.planet-page{
+    margin:5px;
+    width:400px;
+    height:200px;
+    border: 5px solid white;
+    float:right;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}
+/*planet button images*/
+img{
+    width: 475px;
+    height:275px;
+}
+.centauri{
+    width:475px;
+    height:275px;
+}
+/* semantic and element styles*/
+.footer{
+    background-color: #7733ff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 200px;
+    color:white;
+    font-size: 18px;
+}
+h3{
+    text-decoration: underline;
+}
+header{
+     background-color: #7733ff;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+}
+/* about page styles*/
+p.about{
+    font-size:18px;
+}
+/*planet buttons style*/
+div.gallery{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}
+div.gallery-item{
+    margin:4px;
+    border: 1px solid #7733ff;
+    color:white;
+    display:inline-block;
+}
+div.gallery-item:hover{
+border: 5px solid white;
+cursor: arrow;
+}
+div.gallery-item div.desc{
+    padding:14px;
+    text-align:center;
+    background-color:#7733ff;
+    font-size: 25px;
+}
+/*style for whole navbar*/
+.tab{
+    overflow: hidden;
+    border: 1px solid #bb99ff;
+    background-color: #ddccff;
+    display: flex;
+    align-items: center;
+}
+
+/* style for navbar links*/
+.tab a{
+    background-color: inherit;
+    float:left;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    padding: 15px 20px;
+    color:#7733ff;
+    text-decoration: none;
+}
+/*hover style*/
+.tab a:hover{
+    background-color:#7733ff ;
+    color:white;
+}
+
+/* current page active class*/
+.tab a.active{
+    background-color: #4400cc;
+    color:white;
+}
+/*detail tag styles*/
+summary{
+color:white;
+font-size:30px;
+background-color:#9966ff;
+padding:15px;
+
+}
+summary:hover{
+    font-size: 35px;
+    background-color: #aa80ff;
+
+}
+.content{
+    background-color:#9966ff ;
+    color: white;
+    padding:20px;
+}
+.content p{
+    font-size: 18px;
+}
+.content ul{
+    font-size: 18px;
+}
+ ul.content{
+    list-style-position: inside;
+    }
+/* error button section */
+.error{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    display: inline-block;
+}
+/* responsive media*/
+@media screen and (min-width: 373px) and (max-width:600px) {
+    header {
+        font-size:25px ;
+        padding: 6px ;
+    }
+    .footer{
+        margin-top: 100px;
+        padding:6px;
+        font-size:13px;
+    }
+    img.planet-page{
+        display:block;
+        float:none;
+        width:450px;
+        height:200px;
+    }
+    /*detail tag styles*/
+    summary{
+        font-size: 15px;
+        padding: 7px;
+    }
+    summary:hover{
+        font-size: 20px;
+    }
+    .content{
+    padding:10px;
+    }
+.content p{
+    font-size: 13px;
+}
+.content ul{
+    font-size: 13px;
+    
+    }
+
+    ul{
+        font-size:13px;
+    }
+    p{
+        font-size:13px;
+    }
+/* planet button images */
+img{
+    width: 425px;
+    height:225px;
+}
+.centauri{
+    width:425px;
+    height:225px;    
+
+}
+/* about page styles*/
+p.about{
+    font-size:13px;
+}
+/* planet button descriptions*/
+div.gallery-item div.desc{
+  font-size:15px;
+}
+
+}
